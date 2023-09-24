@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarendelés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pizzarendelés</h1>
+    </header>
+    <main>
+        <section class="pizza-menu">
+            <div class="pizza-card margarita">
+                <img src="margarita.jpg" alt="Margarita Pizza">
+                <h2>Margarita</h2>
+                <p>Friss paradicsomszósz, mozzarella sajt</p>
+                <button class="add-to-cart">Kosárba</button>
+            </div>
+            <div class="pizza-card hawaii">
+                <img src="hawaii.jpg" alt="Hawaii Pizza">
+                <h2>Hawaii</h2>
+                <p>Paradicsomszósz, sonka, ananász, mozzarella sajt</p>
+                <button class="add-to-cart">Kosárba</button>
+            </div>
+            <div class="pizza-card pepperoni">
+                <img src="pepperoni.jpg" alt="Pepperoni Pizza">
+                <h2>Pepperoni</h2>
+                <p>Paradicsomszósz, pepperoni kolbász, mozzarella sajt</p>
+                <button class="add-to-cart">Kosárba</button>
+            </div>
+        </section>
+        <section class="cart">
+            <h2>Kosár</h2>
+            <ul class="cart-items">
+                <!-- Kosárban lévő elemek jelennek meg itt -->
+            </ul>
+            <p class="total">Összesen: <span>0 Ft</span></p>
+            <button class="checkout">Rendelés elküldése</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

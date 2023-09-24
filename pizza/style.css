@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.pizza-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.pizza-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.pizza-card img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Állítsd be az egyenlő méretet, például 300px-re */
+    max-height: 200px; /* Állítsd be az egyenlő méretet, például 200px-re */
+    border-radius: 8px;
+}
+
+.pizza-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cart {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 20px;
+    width: 30%;
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.add-to-cart {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #444;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.add-to-cart:active {
+    transform: scale(0.9);
+}
+
+.checkout {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.checkout:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+
+.checkout:active {
+    transform: scale(0.9);
+}
